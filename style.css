@@ -1,0 +1,25 @@
+canvas#meter {
+	border: black 1px solid;
+	margin-top: 70px;
+}
+
+.stop-button {
+    display:inline-block;
+	background: #444;
+    margin:5px;	
+    width: 50px;
+    height: 50px;
+	text-indent: -200px;
+}
+
+#hideAll
+ {
+   position: fixed;
+   left: 0px; 
+   right: 0px; 
+   top: 0px; 
+   bottom: 0px; 
+   background-color: white;
+   z-index: 99; /* Higher than anything else in the document */
+
+ }
